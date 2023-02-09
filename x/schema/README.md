@@ -63,3 +63,4 @@ assert.Equal(t, expected, nativego)
 - [ ] Support json tags in golang to map field names to schema
 - [ ] Add cata, ana, and hylo morphisms
 - [ ] Schema registry to support collision on types
+- [ ] Schema support interface for custom type setters, that don't require reflection, and mkunion can leverage them
